@@ -1,0 +1,50 @@
+.contenedor-tablero{
+    display: flex;
+    justify-content: center;
+}
+
+#tablero {
+    display: block;
+    padding: 10px;
+    background-color: brown;
+    border:5px solid;
+    border-color: #351214;   
+}
+
+.fila{
+	display: flex;
+}
+
+.recuadroBlanco{
+	background-color: blanchedalmond;
+	width: 60px;
+	height: 60px;
+}
+
+.recuadroNegro{
+	background-color: #000;
+	width: 60px;
+	height: 60px;
+}
+.recuadroNegro.selected{
+	background-color: blue;
+	
+}
+
+.fichas{
+    width: 60px;
+	height: 60px;
+}
+
+#fila4columna7 img{
+    display: none;
+}
+
+.pintado{
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+.movimiento{
+	background-color:aquamarine;
+}

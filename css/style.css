@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A72005;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    height: 190px; 
+    background-color:#110F0C;          
+}
+
+header form {
+    align-self: flex-end;
+    color: rgb(214, 136, 18);
+    font-weight: bolder;
+    
+} 
+
+.logo img {  
+    height: 150px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #402018;  
+}
+
+nav a {
+    padding: 14px 20px;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    transition: padding 0.3s;
+    border-radius: 20px;
+    background-color: brown;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 20%;
+    background-color: #110C0B;
+    padding: 20px;
+    font-weight: bolder;
+    color: #F93109;
+    text-align: center;
+}
+
+
+
+section {
+    flex: 60%;
+    background-color: #392824;
+    padding: 20px;
+    text-align: center;
+    color: #FB8E78;
+}
+
+
+.claseButton {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: 320;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #507588;
+    border-radius: 6px;
+    border: 2px solid #0c0c0e;
+}
+
+.claseButton:hover {
+    margin-top: 15px;
+    color: orange;
+    padding: 20px;
+    transition: padding 0.5s;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: #FF947E;
+    background-color: #4C1003;
+}
+
+
+@media screen and (max-width: 900px){
+    @media screen and (max-width: 900px){
+
+        nav{
+        flex-direction: column;
+        }
+        .flex-container{   	
+            width: 430px;
+        }
+        .recuadroBlanco, .recuadroNegro{
+            height: 50px;
+            width: 50px;
+        }
+    
+        .fichas{
+            height: 50px;
+            width: 50px; 
+        }
+    
+    }
+    
+    @media screen and (max-width: 700px){
+    
+        nav{
+        flex-direction: column;
+        }
+        .flex-container{   	
+            width: 320px;
+        }
+        .recuadroBlanco, .recuadroNegro{
+            height: 35px;
+            width: 35px;
+        }
+    
+        .fichas{
+            height: 35px;
+            width: 35px; 
+        }
+    
+    }
+
