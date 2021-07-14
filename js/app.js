@@ -1,4 +1,3 @@
-window.onload = function() {
 //Arreglo de tablero
 var arregloTablero = [
     [0,1,0,1,0,1,0,1],
@@ -332,4 +331,3 @@ for(x=0; x<casillas.length; x++) {
         }
         
     }
-}
