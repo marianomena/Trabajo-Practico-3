@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damas Online</title>
+    <link rel="stylesheet" href="css/tablero.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="imgs/logo4.png" alt="logo" >
+    </div>
+    <form>
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username">
+        <label for="pwd">Constraeña:</label>
+        <input type="password" id="pwd" name="pwd">
+    </form>
+    </header>
+    <div class="nav-content">
+    <nav>
+        <a href="index.html">INICIO</a>
+        <a href="#">REGLAS</a>
+        <a href="contacto.html">CONTACTO</a>
+    </nav>
+    </div>
+    <div class="row">
+        <aside>
+            <div>
+                <img src="imgs/PiezaBlanca.png" id="img-jugador1" alt="PiezaBlanca">
+            </div>
+        </aside>
+    
+    <section>
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input name="nombre" id="nombre" type="text" placeholder="Nombre completo">
+            <label for="email">Email:</label>
+            <input class="imput" id="email" name="email" type="email" placeholder="ejemplo@email.com">
+            <label for="mensaje">Mensaje:</label>
+            <textarea  name="mensaje" id="mensaje" placeholder="Dejanos tu mensaje"></textarea>
+            <input id="submit" name="submit" class="claseButton" type="submit" value="Enviar">
+        </form>
+    </section>
+
+        <aside>
+            <div>
+                <img src="imgs/PiezaRoja.png" id="img-jugador2" alt="PiezaRoja">
+            </div>    
+        </aside>
+    </div>
+    
+    <footer>
+        <h2>Juego de DAMAS ONLINE 2021</h2>
+    </footer>
+</body>
+
+<script src="js/formulario.js"></script>
+
+</html>

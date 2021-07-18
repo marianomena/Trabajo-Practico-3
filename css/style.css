@@ -106,7 +106,29 @@ footer {
     color: #FF947E;
     background-color: #4C1003;
 }
+#formulario{
+	display: flex;
+	flex-direction: column;
+    justify-self: center;
+    align-self: flex-end;
+	margin: 10px auto 10px auto;
+	width: 60%;
+    font-weight: bolder;
+    color: blanchedalmond;
+}
 
+input[type = text],input[type = email],textarea, input[type = password]{
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: 0;
+    height: 35px;
+    
+}
+
+textarea{
+    height: 150px;
+    font-size: 1.2em;
+}
 
 @media screen and (max-width: 900px){
     @media screen and (max-width: 900px){
