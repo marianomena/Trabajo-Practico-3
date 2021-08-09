@@ -79,7 +79,7 @@ section {
 }
 
 
-.claseButton {
+.claseBoton {
     text-decoration: none;
     margin-top: 15px;
     padding: 10px;
@@ -91,7 +91,7 @@ section {
     border: 2px solid #0c0c0e;
 }
 
-.claseButton:hover {
+.claseBoton:hover {
     margin-top: 15px;
     color: orange;
     padding: 20px;
@@ -106,6 +106,7 @@ footer {
     color: #FF947E;
     background-color: #4C1003;
 }
+
 #formulario{
 	display: flex;
 	flex-direction: column;
@@ -130,15 +131,13 @@ textarea{
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 900px){
-    @media screen and (max-width: 900px){
+
+@media screen and (max-width: 1200px){
 
         nav{
         flex-direction: column;
         }
-        .flex-container{   	
-            width: 430px;
-        }
+    
         .recuadroBlanco, .recuadroNegro{
             height: 50px;
             width: 50px;
@@ -150,24 +149,60 @@ textarea{
         }
     
     }
+
+@media screen and (max-width: 900px){
+    section {
+        flex: 76%;
+    }
     
-    @media screen and (max-width: 700px){
-    
-        nav{
+    nav{
         flex-direction: column;
-        }
-        .flex-container{   	
-            width: 320px;
-        }
-        .recuadroBlanco, .recuadroNegro{
-            height: 35px;
-            width: 35px;
-        }
+    }
     
-        .fichas{
-            height: 35px;
-            width: 35px; 
+    .recuadroBlanco, .recuadroNegro{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .fichas{
+        height: 50px;
+        width: 50px; 
+    }
+    
+    }
+    
+@media screen and (max-width: 700px){
+    section {
+        flex: 80%;
+    }
+    
+    
+    nav{
+    flex-direction: column;
+    }
+    
+    .recuadroBlanco, .recuadroNegro{
+        height: 35px;
+        width: 35px;
+    }
+    
+    .fichas{
+        height: 35px;
+        width: 35px; 
         }
     
     }
 
+@media screen and (max-width: 700px){
+    
+    section {
+        flex: 80%;
+        }
+    
+    }
+
+@media screen and (max-width: 360px){
+    section {
+            flex: 80%;
+            }
+        }
