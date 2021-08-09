@@ -1,4 +1,4 @@
-.contenedor-tablero{
+.contenedorTablero{
     display: flex;
     justify-content: center;
 }
@@ -34,10 +34,7 @@
 .fichas{
     width: 60px;
 	height: 60px;
-}
-
-#fila4columna7 img{
-    display: none;
+    cursor:pointer;
 }
 
 .pintado{
@@ -47,4 +44,15 @@
 
 .movimiento{
 	background-color:aquamarine;
+}
+
+.ventanaEmergente{
+    margin-bottom: 15px;
+    background-color: brown;
+    padding: 25px;
+    border: solid;
+    border-color:darkred;
+    border-radius: 15px;
+    font-size: 2rem;
+    display: none;
 }

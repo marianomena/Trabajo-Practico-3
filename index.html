@@ -14,17 +14,11 @@
       <div class="logo">
         <img src="imgs/logo4.png" alt="logo" >
       </div>
-      <form>
-        <label for="username">Usuario:</label>
-        <input type="text" id="username" name="username">
-        <label for="pwd">Constraeña:</label>
-        <input type="password" id="pwd" name="pwd">
-      </form>
     </header>
     <div class="nav-content">
       <nav>
-        <a href="#">INICIO</a>
-        <a href="#">QUE ES?</a>
+        <a href="index.html">INICIO</a>
+        <a href="reglas.html">COMO SE JUEGA?</a>
         <a href="contacto.html">CONTACTO</a>
       </nav>
     </div>
@@ -34,18 +28,24 @@
           <img src="imgs/PiezaBlanca.png" id="img-jugador1" alt="PiezaBlanca">
           <h2 id="jugador1">FUCHAS BLANCAS</h2>
           <label for="username"> PUNTOS </label>
-          <input type="text" id="puntos" name="puntos">
+          <h1 id="puntosJugador1">0</h1>
+          <div class="ventanaEmergente" id="ganador1">
+            <p>GANADOR</p>
         </div>
       </aside>
       
       <section>
         <h2>A JUGAR</h2>
-          <div class="contenedor-tablero">                      
+        <div class="ventanaEmergente" id="empate">
+          <p>Empate de Jugadores</p>
+        </div>
+          <div class="contenedorTablero">                      
             <table id="tablero"></table>
           </div>
            <button id="button" class="claseBoton">Nueva Partida</button>
            <button id="guardar" class="claseBoton">Guardar Partida</button>
            <button id="cargar" class="claseBoton">Cargar Partida</button>
+           <button id="ingresaNombres" class="claseBoton">Ingresar Nombres</button>
       </section>
 
       <aside>
@@ -53,7 +53,9 @@
          <img src="imgs/PiezaRoja.png" id="img-jugador2" alt="PiezaRoja">
           <h2 id="jugador2">FICHAS ROJAS</h2>
           <label for="username"> PUNTOS </label>
-          <input type="text" id="puntos" name="puntos">
+          <h1 id="puntosJugador2">0</h1>
+            <div class="ventanaEmergente" id="ganador2">
+              <p>GANADOR</p>
         </div>
       </aside>
     </div>
