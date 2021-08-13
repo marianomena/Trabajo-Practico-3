@@ -117,13 +117,14 @@ footer {
 	margin: 10px auto 10px auto;
 	width: 60%;
     font-weight: bolder;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 209, 209);
 }
 
 input[type = text],input[type = email],textarea, input[type = password]{
     border-radius: 8px;
     margin-bottom: 8px;
     border: 0;
+    color: rgb(0, 0, 0);
     height: 35px;
     
 }
